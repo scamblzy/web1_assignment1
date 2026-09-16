@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rustam Yakubov's Assignment 1</h1>
+        <h2>Course name: Web1 Frontend</h2>
+        <h3 id = "about">About me:</h3>
+        <p>My name is Rustam, I'm 19 years old. I was born in Aktobe, Kazakhstan. I study software engineering at Astana IT University. I have several hobbies, some of them will be listed in ordered list below.</p>
+    </header>
+    
+    <nav>
+        <a href = "#about">information</a>
+        <a href = "#hobbies">my hobbies</a>
+        <a href = "#favs">fav websites</a>
+        <a href = "#image">avatar</a>
+        <a href = "#form">form</a>
+    </nav>
+    
+    <hr>
+
+    <main>
+        <h2 id = "hobbies">My hobbies:</h2>
+        <ol>
+            <li>Football</li>
+            <li>Reading Books</li>
+            <li>SQL</li>
+        </ol>
+
+        <h3 id = "favs">List of my fav websites:</h3>
+        <ul class = "favslist">
+            <li><a href = "https://www.youtube.com/">youtube</a></li>
+            <li><a href = "https://www.kinopoisk.ru/?utm_referrer=organic.kinopoisk.ru">kinopoisk</a></li>
+            <li><a href = "https://www.reddit.com/">reddit</a></li>
+        </ul>
+
+        <h3 id = "image">Photo:</h3>
+        <img src = "avatar.jpg" alt = "My avatar in teams. RY">
+
+
+        <button type = "button">Click me =]</button>
+
+        <hr>
+
+        <h2>Timetable:</h2>
+        <table class = "timetable">
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Web1</td>
+                <td>Thursday</td>
+                <td>12:00 - 13:55</td>
+            </tr>
+            <tr>
+                <td>DAA</td>
+                <td>Monday , Thursday</td>
+                <td>16:00 - 17:50</td>
+            </tr>
+            <tr>
+                <td>SDP</td>
+                <td>Monday , Thursday , Friday</td>
+                <td>19:00 - 19:50</td>
+            </tr>
+            <tr>
+                <td>OS</td>
+                <td>Monday , Friday</td>
+                <td>13:00 - 13:55</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p>My mood now: &#128531; , &#128564; , &#x1F637;</p>
+
+        <hr>
+
+        <h2 id = "form">Basic Form</h2>
+
+        <form>
+            <label for = "name">Your name:</label>
+            <input type = "text" id = "name" name = "name"><br><br>
+
+            <label for = "email">Your email:</label>
+            <input type = "email" id = "email" name = "email"><br><br>
+
+            <label for = "color">Your fav color:</label>
+            <input type = "color" id = "color" name = "color"><br><br>
+
+            <button id = "formbutton" type ="submit">Submit</button>
+        </form>
+    </main>
+    
+    <footer>
+        <h4>It's my footer. I hope that assignment is done good, rustam 2026</h4>
+    </footer>
+
+</body>
+</html>
